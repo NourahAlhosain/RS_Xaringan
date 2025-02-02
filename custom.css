@@ -1,5 +1,7 @@
 
-
+.remark-slide-content {
+  padding: 1em 2em 1em 2em;
+}
 .title-slide {
   background-image: url('images/bkg.jpg');
   background-size: cover;
@@ -13,6 +15,25 @@
   margin-bottom: 200px;
 }
 
+
+.ref {
+        font-size: 13px;
+        line-height: 1.5; 
+        margin: 20px; 
+    }
+  
+    .ref li {
+        margin-bottom: 10px; 
+    }
+    a {
+        color: black; 
+        text-decoration: none; 
+    }
+    a:hover {
+        color: #5072A7; 
+        text-decoration: underline; 
+    }
+
       .container {
             display: flex;
             width: auto;
@@ -20,7 +41,7 @@
         .left {
             width: 60%;
             font-size: 15px; 
-            margin-left: 0px;
+   
         }
         .right {
             width: 40%;
