@@ -21,7 +21,7 @@ output:
  The<b>Total Ozone Mapping Spectrometer (TOMS)</b> is a groundbreaking sensor designed to measure ozone levels by detecting backscattered ultraviolet (UV) radiation. First launched in 1978 aboard NASA’s<b>Nimbus-7</b>  satellite, TOMS introduced a new era of atmospheric monitoring. It was later deployed on several other satellites, including the Soviet <b>Meteor-3</b> (1991), Japan’s <b>ADEOS</b> (1996), and NASA’s <b> Earth Probe</b> (1996), extending its mission to monitor ozone and atmospheric composition for nearly three decades.
 </div>
 
-<br>
+
 <br>
 <div style="text-align: justify;">
 Its design of looking straight down at Earth <b>(called nadir viewing)</b>  and ability to scan across a wide range of UV wavelengths made it a powerful tool for studying the ozone layer. TOMS not only advanced scientific understanding but also demonstrated how satellite data could drive global environmental action, setting a standard for future missions.
@@ -136,7 +136,7 @@ image credit: NASA
 ---
 # Reflections
 
-- Overall, seeing how far we’ve come from TOMS’ basic ozone maps to TROPOMI’s hyper-detailed pollution tracking  is inspiring. These tools aren’t just for scientists; they give communities and governments the data to tackle issues like methane leaks . Sure, they might miss hyper-local details (like a single factory’s emissions), but their big-picture insights are vital for policy and global cooperation.  As someone starting out in this field, it’s motivating to see how satellite data bridges science and action—and why learning these tools matters in an era facing significant environmental challenges 
+- Overall, seeing how far we’ve come from TOMS’ basic ozone maps to TROPOMI’s hyper-detailed pollution tracking  is inspiring. These tools aren’t just for scientists; they give communities and governments the data to tackle issues like methane leaks . Sure, they might miss hyper-local details (like a single factory’s emissions), but their big-picture insights are vital for policy and global cooperation.  As someone starting out in this field, it’s motivating to see how satellite data bridges science and action—and why learning these tools matters in an era facing significant environmental challenges. 
 
 ---
 # References
