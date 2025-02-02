@@ -1,0 +1,14 @@
+
+
+.title-slide {
+  background-image: url('images/bkg.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.subtitle {
+  font-size: .5em; 
+  color: white; 
+  margin-bottom: 200px;
+}
