@@ -4,25 +4,27 @@
     <title>Total Ozone Mapping Spectrometer (TOMS)</title>
     <meta charset="utf-8" />
     <meta name="author" content="CASA0023 Norah Alhosain" />
-    <script src="libs/header-attrs/header-attrs.js"></script>
-    <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link href="libs/htmltools-fill/fill.css" rel="stylesheet" />
-    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
-    <script src="libs/jquery/jquery-3.6.0.min.js"></script>
-    <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
-    <script src="libs/leaflet/leaflet.js"></script>
-    <link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
-    <script src="libs/proj4/proj4.min.js"></script>
-    <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
-    <link href="libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
-    <script src="libs/leaflet-binding/leaflet.js"></script>
-    <link href="libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
-    <script src="libs/datatables-binding/datatables.js"></script>
-    <link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
-    <link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
-    <script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
-    <link href="libs/crosstalk/css/crosstalk.min.css" rel="stylesheet" />
-    <script src="libs/crosstalk/js/crosstalk.min.js"></script>
+    <script src="libs/header-attrs-2.29/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+    <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+    <link href="libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+    <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+    <link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet-1.3.1/leaflet.js"></script>
+    <link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+    <script src="libs/proj4-2.6.2/proj4.min.js"></script>
+    <script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+    <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet-binding-2.2.2/leaflet.js"></script>
+    <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="libs/datatables-binding-0.33/datatables.js"></script>
+    <link href="libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+    <link href="libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
+    <script src="libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
     <link rel="stylesheet" href="custom.css" type="text/css" />
   </head>
   <body>
@@ -41,15 +43,113 @@ class: center, middle, inverse, title-slide
 
 ---
 
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+# Summary - Introduction
+&lt;br&gt;
+&lt;br&gt;
+&lt;div style="text-align: justify;"&gt;
 
+ The&lt;b&gt;Total Ozone Mapping Spectrometer (TOMS)&lt;/b&gt; is a groundbreaking sensor designed to measure ozone levels by detecting backscattered ultraviolet (UV) radiation. First launched in 1978 aboard NASA’s&lt;b&gt;Nimbus-7&lt;/b&gt;  satellite, TOMS introduced a new era of atmospheric monitoring. It was later deployed on several other satellites, including the Soviet &lt;b&gt;Meteor-3&lt;/b&gt; (1991), Japan’s &lt;b&gt;ADEOS&lt;/b&gt; (1996), and NASA’s &lt;b&gt; Earth Probe&lt;/b&gt; (1996), extending its mission to monitor ozone and atmospheric composition for nearly three decades.
+&lt;/div&gt;
 
-
-???
-
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+&lt;br&gt;
+&lt;br&gt;
+&lt;div style="text-align: justify;"&gt;
+Its design of looking straight down at Earth &lt;b&gt;(called nadir viewing)&lt;/b&gt;  and ability to scan across a wide range of UV wavelengths made it a powerful tool for studying the ozone layer. TOMS not only advanced scientific understanding but also demonstrated how satellite data could drive global environmental action, setting a standard for future missions.
+&lt;/div&gt;
 
 ---
+# Summary - Design
+
+.pull-left[
+&lt;br&gt;
+&lt;table class="table table-bordered" style="font-size: 15px; width: auto !important; margin-left: auto; margin-right: auto;"&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Sensor Type &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Passive sensor (measures backscattered UV radiation) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Viewing Angle &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Nadir viewing (looks straight down at Earth) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Spectral Range &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Six UV wavelengths (310–380 nm) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Scanning Mechanism &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; • Scans ±51° from nadir in 3° steps&lt;br&gt;• Swath width: ~2,700 km &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Spatial Resolution &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 50 km × 50 km (average: 62 km × 62 km) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Field of View &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Instantaneous Field of View (IFOV): ~0.052 radians &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Swath Width &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; ~2,700 km &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style="text-align: left; font-size: 15px;"&gt;
+* Smaller IFOV allows for finer spatial resolution, meaning the ability to distinguish smaller features on the Earth's surface
+&lt;/p&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="images/NASA.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+&lt;p style="text-align: center; font-size: 12px; color: gray;"&gt;
+image credit: NASA
+&lt;/p&gt;
+
+]
+
+---
+# Applications - Ozone Monitoring
+ 
+
+&lt;div class="container"&gt;
+    &lt;div class="left"&gt;
+        &lt;ul&gt;
+            &lt;li&gt;In May 1985, a paper published by Farman, Gardiner, &amp; Shanklin presented the first scientific evidence of the Antarctic ozone hole, showing a 50% reduction in ozone levels over Antarctica during the spring months.&lt;/li&gt;
+            &lt;li&gt;In August 1985, Bhartia et al. presented the first map of the Antarctic Ozone Hole from TOMS data at the IAGA/IAMAP conference, confirming that the observed ozone depletion was a continent-wide phenomenon.&lt;/li&gt;
+            &lt;li&gt;In 2005, Stolarski et al. highlighted how TOMS faced calibration issues due to a degrading mirror, causing some uncertainty in ozone measurements, especially by 2002. However, this uncertainty was minor when comparing the 2002 ozone hole to earlier years.&lt;/li&gt;
+            &lt;li&gt;The last TOMS mission, the Earth Probe, operated until 2006. It has since been succeeded by advanced sensors such as Aura's Ozone Monitoring Instrument (OMI), the Suomi NPP's Ozone Layer Monitoring Suite (OLMS), and the Copernicus Sentinel-5P satellite.&lt;/li&gt;
+            &lt;li&gt;The discovery and subsequent mapping of the ozone hole significantly influenced international policy, leading to the adoption of the Montreal Protocol in 1987. This treaty aimed to phase out the production and consumption of ozone-depleting substances, ultimately contributing to the recovery of the ozone layer.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="right"&gt;
+        &lt;img src="images/Nimbus.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+        &lt;p style="text-align: center; font-size: 12px; color: gray;"&gt;
+image credit: NASA
+&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+---
+# Applications - Volcanic Eruption Tracking
+
+- Krueger et al. discussed how the 1982 El Chichón eruption in Mexico significantly advanced the monitoring of volcanic sulfur dioxide (SO₂) from space, showcasing the capabilities of the TOMS in detecting and quantifying SO₂ emissions.
+
+--
+
+- For eruption analysis, TOMS provides three valuable products: total ozone anomalies, the Sulfur Dioxide Index, and the Aerosol Index, which facilitate comprehensive assessments of volcanic activity.
+
+--
+
+- The TOMS total ozone algorithm was ineffective in the presence of volcanic clouds due to the similar absorption spectra of SO₂ and ozone. Consequently, an atmospheric correction approach was developed to accurately retrieve SO₂ concentrations.
+
+--
+
+- This event led to the development of methodologies for satellite-based volcanic gas monitoring, establishing a foundation for future technologies and improving global understanding of volcanic activity and its environmental impacts.
+
+---
+
 class: center, middle
 
 # xaringan
@@ -340,8 +440,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-f6d0929c6f8c2cc23ca5" style="width:100%;height:432px;"></div>
-<script type="application/json" data-for="htmlwidget-f6d0929c6f8c2cc23ca5">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-68c2f4e3bbbccfa2d3e8" style="width:100%;height:432px;"></div>
+<script type="application/json" data-for="htmlwidget-68c2f4e3bbbccfa2d3e8">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -353,8 +453,8 @@ DT::datatable(
 )
 ```
 
-<div class="datatables html-widget html-fill-item" id="htmlwidget-b96d13f030af8d7af5ba" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-b96d13f030af8d7af5ba">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Sepal.Length","targets":1},{"name":"Sepal.Width","targets":2},{"name":"Petal.Length","targets":3},{"name":"Petal.Width","targets":4},{"name":"Species","targets":5}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-14c2695264a88343afec" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-14c2695264a88343afec">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Sepal.Length","targets":1},{"name":"Sepal.Width","targets":2},{"name":"Petal.Length","targets":3},{"name":"Petal.Width","targets":4},{"name":"Species","targets":5}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
